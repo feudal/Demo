@@ -43,3 +43,9 @@ html,body {
 .container p {
 	margin: 100px auto;
 }
+
+.message {
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #FF6600;
+}
