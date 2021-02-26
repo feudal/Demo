@@ -3,9 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+  <link rel="stylesheet" href="/static/main.css">
+	<title>Data Collector App</title>
 </head>
 <body>
-	
+	<div class="container">
+		<h1>Collecting height</h1>
+		<h2>Please fill the entires to get population stistics on height</h2>
+		<form action="succes.html" method="POST">
+			<input type="email" name="email_name" title="Your email will be save with us" placeholder="Enter you email address" required><br>
+			<input type="number" min="50" max="300" name="height_name" title="Your data will be save with us" placeholder="Enter you height in cm" required><br>
+			<button type="Submit">Submit</button>
+		</form>
+	</div>
 </body>
 </html>
